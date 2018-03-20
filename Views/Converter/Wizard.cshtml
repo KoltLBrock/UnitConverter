@@ -1,6 +1,7 @@
 @model UnitOperation
 @{
     ViewData["Title"] = "Results";
+    Layout = "_Layout";
 }
 
 <form class="form-horizontal" asp-action="Convert" method="POST">
@@ -16,7 +17,7 @@
 </div>
 
 <div class="form-group">
-    <label asp-for="inputType">Conversion Type</label>
+    <label asp-for="inputType">Input Type</label>
     <select class="form-control" asp-for="inputType">
         <option>MPH</option>
         <option>KMPH</option>
