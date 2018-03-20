@@ -17,7 +17,7 @@ namespace UnitConverter.Controllers
         [HttpPost]
         public IActionResult Convert(UnitOperation unitOp){
             if(ModelState.IsValid){
-                switch(unitOp.converstionType){
+                switch(unitOp.conversionType){
                     case "Speed":
                         switch(unitOp.inputType){
                             case "MPH":
@@ -28,6 +28,8 @@ namespace UnitConverter.Controllers
                                 //0.6213671 is conversion rate from kmph to mph (source: google convert)
                                 unitOp.result = unitOp.input * (float)0.621371;
                                 break;
+                            default:
+                                return View("Error");
                         }
                         break;
                     case "Temperature":
@@ -38,6 +40,8 @@ namespace UnitConverter.Controllers
                             case "Celcius":
                                 unitOp.result = unitOp.input * (float)1.8 + (float)32;
                                 break;
+                            default:
+                                return View("Error");
                         }
                         break;
                 }

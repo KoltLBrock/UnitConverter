@@ -1,0 +1,38 @@
+@model UnitOperation
+@{
+    ViewData["Title"] = "Results";
+}
+
+<form class="form-horizontal" asp-action="Convert" method="POST">
+<fieldset>
+<legend>Unit Converter</legend>
+
+<div class="form-group">
+    <label asp-for="conversionType">Conversion Type</label>
+    <select class="form-control" asp-for="conversionType">
+        <option>Speed</option>
+        <option>Temperature</option>
+    </select>
+</div>
+
+<div class="form-group">
+    <label asp-for="inputType">Conversion Type</label>
+    <select class="form-control" asp-for="inputType">
+        <option>MPH</option>
+        <option>KMPH</option>
+        <option>Farenheit</option>
+        <option>Celcius</option>
+    </select>
+</div>
+
+<div class="form-group">
+    <label asp-for="input">Number To Convert</label>
+    <input class="form-control" asp-for="input" placeholder="Enter Number To Convert" type="number">
+</div>
+
+<div class="form-group">
+    <button class="btn btn-default" type="submit">Submit</button>
+</div>
+
+</fieldset>
+</form>

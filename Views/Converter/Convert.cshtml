@@ -1,0 +1,8 @@
+@model UnitOperation
+
+@{
+    ViewData["Title"] = "Conversion Result";
+}
+<p>The <span class="badge badge-dark">@Model.conversionType</span> conversion of
+<span class="badge badge-light">@Model.input</span> <span class="badge badge-dark">@Model.inputType</span>
+is <span class="badge badge-success">@Model.result</span></p>
