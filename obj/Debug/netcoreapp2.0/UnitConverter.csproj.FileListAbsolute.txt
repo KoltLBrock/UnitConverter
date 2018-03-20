@@ -1,0 +1,10 @@
+C:\CIDM3312\UnitConverter\bin\Debug\netcoreapp2.0\UnitConverter.deps.json
+C:\CIDM3312\UnitConverter\bin\Debug\netcoreapp2.0\UnitConverter.runtimeconfig.json
+C:\CIDM3312\UnitConverter\bin\Debug\netcoreapp2.0\UnitConverter.runtimeconfig.dev.json
+C:\CIDM3312\UnitConverter\bin\Debug\netcoreapp2.0\UnitConverter.dll
+C:\CIDM3312\UnitConverter\bin\Debug\netcoreapp2.0\UnitConverter.pdb
+C:\CIDM3312\UnitConverter\obj\Debug\netcoreapp2.0\UnitConverter.csproj.CoreCompileInputs.cache
+C:\CIDM3312\UnitConverter\obj\Debug\netcoreapp2.0\UnitConverter.AssemblyInfoInputs.cache
+C:\CIDM3312\UnitConverter\obj\Debug\netcoreapp2.0\UnitConverter.AssemblyInfo.cs
+C:\CIDM3312\UnitConverter\obj\Debug\netcoreapp2.0\UnitConverter.dll
+C:\CIDM3312\UnitConverter\obj\Debug\netcoreapp2.0\UnitConverter.pdb
